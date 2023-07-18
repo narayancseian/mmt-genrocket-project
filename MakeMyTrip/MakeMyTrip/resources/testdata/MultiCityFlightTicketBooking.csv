@@ -1,0 +1,4 @@
+﻿id,From,To,DepartureDate,Adults,Children,Infants,Class,From1,To1,DepartureDate1,FareType
+1,Chennai,Imphal,Jul 01 2023,4,0,0,Business,Lucknow,Bhopal,Jul 10 2023,Student
+2,Lucknow,Bhopal,Jul 03 2023,3,1,1,Premium Economy,Chennai,Imphal,Aug 01 2023,Armed Forces
+3,Delhi,Mumbai,Sep 15 2023,4,0,1,Economy/Premium Economy,Delhi,Mumbai,Sep 30 2023,Doctors & Nurses

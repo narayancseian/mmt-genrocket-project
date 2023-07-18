@@ -1,0 +1,12 @@
+ {
+
+      "id" : "1",
+      "From" : "Bengaluru",
+      "To" : "Chennai",
+      "DepartureDate" : "Jul 09 2023",
+      "Adults" : "2",
+      "Children" : "0",
+      "Infants" : "0",
+      "Class" : "Economy/Premium Economy",
+      "FareType" : "Student"
+    }

@@ -1,0 +1,7 @@
+customer.register.success=
+customer.register.fail=
+customer.login.success=
+customer.login.fail=
+order.placed.success=Your order has been successfully processed!
+failed.LoginConfirmation=Login was unsuccessful. Please correct the errors and try again.
+register.failedConf=The specified email already exists

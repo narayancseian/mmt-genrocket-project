@@ -1,0 +1,7 @@
+At D:\foreman\execute.ps1:2 char:84
++ ... e-Host "Command succeded"} else {Write-Host "Command Failed"; exit 1}
++                                                                ~~~~~~~~~~
+The string is missing the terminator: ".
+    + CategoryInfo          : ParserError: (:) [], ParseException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+ 

@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.qmetry:qaf-project-lambdatest-demo1:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 61, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------< com.qmetry:qaf-project-lambdatest-demo1 >---------------
+[INFO] Building qaf-project-lambdatest-demo1 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ qaf-project-lambdatest-demo1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\foreman\QAF_Demos_Repo-Web_Tricentis_WebApp\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ qaf-project-lambdatest-demo1 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ qaf-project-lambdatest-demo1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\foreman\QAF_Demos_Repo-Web_Tricentis_WebApp\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ qaf-project-lambdatest-demo1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.14.0:test-compile (test-compile) @ qaf-project-lambdatest-demo1 ---
+[INFO] No modifications found skipping aspectJ compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.9:test (default-test) @ qaf-project-lambdatest-demo1 ---
+[INFO] Surefire report directory: D:\foreman\QAF_Demos_Repo-Web_Tricentis_WebApp\test-results\24_Mar_2023_11_33_AM
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Added "QAFMethodSelector"
+include groups []
+ exclude groups: [] Scanarios location: scenarios/suite1.feature 
+Mar 24, 2023 11:33:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 106.47 sec
+Preparing For Shut Down...
+Result updator: Completed 6 Remaining 0 result to be update.
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:48 min
+[INFO] Finished at: 2023-03-24T11:35:31Z
+[INFO] ------------------------------------------------------------------------
+Command succeded
