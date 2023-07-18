@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="QAF Demo" verbose="0">
+	<!-- parameter name="driver.name" value="firefoxDriver" /-->
+	<parameter name="scenario.file.loc" value="scenarios/suite1.feature" />
+	<!-- test name="Registration Test" enabled="true"-->
+	<test name="BDD Test" enabled="true">
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2"></class>
+		</classes>
+	</test>
+
+</suite>
