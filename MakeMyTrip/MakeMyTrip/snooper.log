@@ -1,0 +1,24 @@
+{"level":"info","message":"Snooper version 1.17.0","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:41 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:41 GMT"}
+{"level":"info","message":"Snooper version 1.17.0","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:44 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:44 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:44 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:44 GMT"}
+{"level":"info","message":"Extracting features from file scenarios/suite1.feature","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:44 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:15:44 GMT"}
+{"level":"info","message":"Snooper version 1.17.0","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:03 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:03 GMT"}
+{"level":"info","message":"Snooper version 1.17.0","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:06 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:06 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:06 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:06 GMT"}
+{"level":"info","message":"Extracting features from file scenarios/suite1.feature","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:06 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:20:06 GMT"}
+{"level":"info","message":"Snooper version 1.17.0","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:39 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:39 GMT"}
+{"level":"info","message":"Snooper version 1.17.0","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:42 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:42 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:42 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:42 GMT"}
+{"level":"info","message":"Extracting features from file scenarios/suite1.feature","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:42 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 24 Mar 2023 11:28:42 GMT"}

@@ -1,0 +1,61 @@
+version: "0.1"
+user: vanshika.khokle
+key: wMWN0PiLm1O2zRAtpQnRkHxbDsOx93p1zv4vDg664GaO1y0Gxw
+testSuites: []
+pre: [mvn -Dmaven.repo.local=$CACHE_DIR -Dmaven.test.skip=true clean install]
+preDirectives:
+    commands: [mvn -Dmaven.repo.local=$CACHE_DIR -Dmaven.test.skip=true clean install]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+env:
+    CACHE_DIR: m2_cache_dir
+runson: win
+autosplit: true
+concurrency: 4
+testDiscovery:
+    args:
+        featureFilePaths: scenarios/
+        frameWork: java
+    command: .hyperexecute\snooper.exe  --targetOs=win --featureFilePaths=scenarios/ --frameWork=java
+    mode: static
+    type: automatic
+testDiscoveryResult:
+    - scenarios/suite1.feature:9
+    - scenarios/suite1.feature:16
+    - scenarios/suite1.feature:24
+    - scenarios/suite1.feature:36
+    - scenarios/suite1.feature:42
+    - scenarios/suite1.feature:49
+testRunnerCommand: mvn test `-Dcucumber.features="$test"
+cacheDirectories:
+    - $CACHE_DIR
+cacheKey: '{{ checksum "pom.xml" }}'
+maxRetries: 5
+jobID: 0261c9ff-9071-4846-a8e5-81c8af97d6f0
+mergeArtifacts: true
+codeDirectory: QAF_Demos_Repo-Web_Tricentis_WebApp
+framework:
+    name: ""
+    flags: []
+    discoveryFlags: []
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: true
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
